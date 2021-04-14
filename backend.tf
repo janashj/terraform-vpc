@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "janash-jenkins-terraform-docker"
+        bucket = "terraform-backend-virginia-janara-backup"
         key = "terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
         region = "us-east-1"
     }
